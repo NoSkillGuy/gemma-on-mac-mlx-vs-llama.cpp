@@ -1,0 +1,21 @@
+{
+  "prompt": "Explain transformers architecture in simple terms.",
+  "max_tokens": 200,
+  "temperature": 0.7,
+  "num_runs": 3,
+  "mlx": {
+    "model_id": "mlx-community/gemma-4-e2b-it-mxfp4",
+    "quantization": "mxfp4"
+  },
+  "llama_cpp": {
+    "gguf_repo": "unsloth/gemma-4-E2B-it-GGUF",
+    "gguf_filename": "gemma-4-E2B-it-Q4_K_M.gguf",
+    "mmproj_filename": "mmproj-F16.gguf",
+    "local_mmproj_path": null,
+    "local_gguf_path": null,
+    "quantization": "Q4_K_M",
+    "n_gpu_layers": -1,
+    "context_size": 8192,
+    "llama_server_bin": null
+  }
+}

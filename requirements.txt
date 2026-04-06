@@ -1,0 +1,7 @@
+# Gemma 4 checkpoints use model_type "gemma4". PyPI mlx-lm (e.g. 0.31.1) may not include
+# that architecture yet; install from upstream until a release contains it.
+mlx-lm @ git+https://github.com/ml-explore/mlx-lm.git
+mlx-vlm>=0.1.0
+psutil>=5.9.0
+requests>=2.31.0
+huggingface_hub>=0.24.0
